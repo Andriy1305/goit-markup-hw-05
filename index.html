@@ -498,7 +498,7 @@
           Leave your contacts and we will call you back
         </p>
         <form>
-          <div class="form-block">
+          <div class="form-sumb">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-cont-input">
               <input
@@ -513,7 +513,7 @@
               </svg>
             </div>
           </div>
-          <div class="form-block">
+          <div class="form-sumb">
             <label class="modal-form-label" for="user-phone">Phone</label>
             <div class="modal-cont-input">
               <input
@@ -528,7 +528,7 @@
               </svg>
             </div>
           </div>
-          <div class="form-block">
+          <div class="form-sumb">
             <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-cont-input">
               <input
@@ -546,7 +546,8 @@
           <div class="modal-from-comment">
             <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
-              class="comment-block"
+              class="comment-text"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
@@ -555,9 +556,10 @@
             <input
               type="checkbox"
               class="inp-check visually-hidden"
-              id="user-checkbox"
+              id="user-privacy"
+              value="true"
             />
-            <label for="user-checkbox" class="costum-label">
+            <label for="user-privacy" class="costum-label">
               <span class="span-checkbox">
                 <svg class="icon-vector" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
