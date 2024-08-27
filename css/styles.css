@@ -458,7 +458,7 @@ pointer-events: none;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop.is-{
+.backdrop.is-open{
 opacity: 1;
 visibility: visible;
 pointer-events: auto;
@@ -670,21 +670,36 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
 }
-.last-input{
+.last-inp{
 border: 1px solid #fff;
 border-radius: 4px;
-max-width:264px;
+background-color: transparent;
+width:264px;
 height:40px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 margin-right: 24px;
+font-size: 12px;
+line-height: 2px;
+letter-spacing: 0.04em;
+padding-left: 16px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+color: #ffffff;
 }
 .last-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+display:flex;
+justify-content: center;
+align-items: center;
 border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 background: #4d5ae5;
 border:none ;
+cursor: pointer;
 }
 .last-svg{
 margin-left: 16px;
