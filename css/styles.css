@@ -676,7 +676,6 @@ border-radius: 4px;
 background-color: transparent;
 width:264px;
 height:40px;
-margin-right: 24px;
 font-size: 12px;
 line-height:2;
 letter-spacing: 0.04em;
@@ -703,6 +702,7 @@ cursor: pointer;
 }
 .last-svg{
 margin-left: 16px;
+fill:#fff ;
 }
 .last-form{
 display:flex;
