@@ -57,7 +57,9 @@
       <section class="firct-section">
         <div class="container tittle-but">
           <h1 class="first-tittle">Effective Solutions for Your Business</h1>
-          <button class="first-button" type="button">Order Service</button>
+          <button class="first-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="features-section">
@@ -491,9 +493,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="modal-close-btn" type="button" data-modal-close>
           <svg width="8" height="8" class="svg-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -578,5 +580,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
